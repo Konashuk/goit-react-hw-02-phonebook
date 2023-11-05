@@ -11,6 +11,8 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
+        paddingTop: 12,
+        paddingBottom: 48,
       }}
     >
       <Phonebooks />
