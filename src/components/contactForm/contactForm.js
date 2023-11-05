@@ -1,4 +1,4 @@
-import { Field, Form, Label, ErrorMas } from './contactForm.styled';
+import { Field, Form, Label, ErrorMas, Button } from './contactForm.styled';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 
@@ -37,7 +37,7 @@ export const ContactForm = ({ addContact }) => {
           <Field type="tel" name="number" placeholder="2279126" />{' '}
           <ErrorMas name="number" component="span" />
         </Label>
-        <button type="submit">Add contact</button>
+        <Button type="submit">Add contact</Button>
       </Form>
     </Formik>
   );

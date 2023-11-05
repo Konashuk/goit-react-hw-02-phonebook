@@ -25,3 +25,12 @@ export const ErrorMas = styled(ErrorMessage)`
   font-size: 8px;
   color: red;
 `;
+
+export const Button = styled.button`
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: blue;
+    color: white;
+  }
+`;
