@@ -10,6 +10,11 @@ export const List = styled.ul`
 export const Button = styled.button`
   border-radius: 10px;
   font-size: 14px;
+  cursor: pointer;
+  &:hover {
+    background-color: blue;
+    color: white;
+  }
 `;
 
 export const Item = styled.li`
