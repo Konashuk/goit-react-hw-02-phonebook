@@ -6,6 +6,8 @@ export const Form = styled(FormStyled)`
   flex-direction: column;
   max-width: 430px;
   gap: 12px;
+  padding: 44px;
+  border: 2px solid black;
 `;
 
 export const Field = styled(FieldStyled)`
